@@ -1,0 +1,112 @@
+
+/*본문1의 경우 미디어 쿼리로 전체 화면 늘어났을 때는 크기70%에 가운데 정렬 오게 해야함요*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+  /*이거 안됨, 일단 미디어쿼리가 왜 적용이 안되는지 알아봐야 하고, 그리고 크기를 줄이면 좌측으로 붙어버리는데 이거 해결할 방법이 필요함, 중앙정렬하는 법...
+  일단 중앙정렬 하는 방법을 먼저 알아본다음에 미디어 쿼리로 1000px 넘었을 때 크기60%로 줄여지는거 알아봅시다.*/
+
+  /* 이 미디어 쿼리는 연구가 필요합니다.
+  @media(min-width:900px) {
+   .본문1{
+     width:60%;
+   }
+  }
+  }
+  여기까지 */
+
+  body{
+    font-family: 'Jua', sans-serif;
+  }
+  p{
+    font-family: 'Do Hyeon', sans-serif;
+  }
+  h1{
+    font-size: 45px;
+  }
+  h4{
+    font-size: 25px;
+  }
+  .여백1{
+    margin:50px;
+  }
+  .여백2{
+    padding: 20px;
+    text-align: center;
+  }
+  .여백3{
+    background-color: #FE9A2E;
+    text-align: center;
+    border:solid;
+    border-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+  }
+  .여백4{
+    background-color: #FE9A2E;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 98%;
+    grid-template-rows: 200px 1fr;
+    justify-content: center;
+  }
+  .목차{
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .머릿말{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  .머릿말타이틀{
+    color: #FFFFFF;
+  }
+  .꼬릿말{
+    text-align:center;
+    margin: 20px;
+  }
+  .본문1{
+    border-radius: 50px;
+    width: auto;
+    padding: 10px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+
+  }
+  #본문머리{
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: #D8D8D8;
+    padding: 35px;
+  }
+  .내용1{
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 50px;
+  }
+  /*여기부터 영상 관련 태그인데, 이게 왜 이렇게 반응형이 되는지 잘 모르겠다. 나중에 공부해보도록 합시다. 혹시 이 방법을 사용하면 미디어 쿼리 사용 안해도 페이지 자체를 능동적으로 바꿀수 있지 않으까??*/
+  .video {
+      position: relative;
+      padding-bottom: 56.25%;
+      height:0;
+      overflow:hidden;
+  }
+  .video iframe,
+  .video object,
+  .video embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height:100%;
+  }
+  /*여기까지 영상 태그임*/
+
+  #본문문구1{
+    width: 90%
+  }
