@@ -118,10 +118,10 @@
 
 
 
-/*미디어쿼리임
+/*미디어쿼리임*/
   @media (min-device-aspect-ratio:16/9) and (min-width:1500px) {
    .본문1{
      position: relative;
      left:21%;
      width:55%;
-   }*/
+   }
