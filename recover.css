@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+  /*미디어 쿼리는 맨 밑에 넣었음, 왜냐하면 셀렉터 서열상 가장 밑에 있어야 최신으로 적용되기 때문이다. */
+
+
+  body{
+    font-family: 'Gothic A1', sans-serif;
+  }
+  p{
+    font-family: 'Gothic A1', sans-serif;
+  }
+  h1{
+    font-size: 45px;
+  }
+  h4{
+    font-size: 25px;
+  }
+  a{
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .여백1{
+    margin:20px;
+  }
+  .여백2{
+    padding: 20px;
+    text-align: center;
+  }
+  .여백3{
+    background-color: #F18D44;
+    text-align: center;
+    border:solid;
+    border-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+  }
+
+  .여백4{
+    background-color: #F18D44;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+  .대문사진{
+    justify-content: center;
+  }
+  .켐페인문구{
+    width:90%;
+    /*내가 계속 사진 크기 때문에 스트레스 받았는데 이유는 간단했었음, 일단 여기에 있는 사진 자체의 크기를 설정하지 못했던 것임*/
+  }
+  .목차{
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  #서명목차{
+    font-size: 30px;
+    color: #FFFF00;
+  }
+  .꼬릿말{
+    text-align:center;
+    margin: 20px;
+  }
+  .본문{
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 3fr 6fr 3fr;
+    position: relative;
+    left: 50%;
+    transform: translateX(-45%);
+  }
+  .내용{
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 30px;
+    margin: auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-size: 25px;
+    line-height: 50px;
+  }
+  #내용1제목{
+    border-style: solid;
+    border-color: #ffd800;
+    border-radius: 50px;
+    background-color: #ffd800;
+    width:550px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+  #내용1본문{
+    border-style: solid;
+    border-color: #e5e5e5;
+    padding: 50px;
+    margin-top: 50px;
+    letter-spacing: auto;
+  }
+  #내용2표{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    padding: 30px;
+  }
+  .박스{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e5e5e5;
+    text-align: center;
+  }
+  .박스목차{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e5e5e5;
+    color: #F18D44;
+    text-align: center;
+    padding-top: 5%;
+  }
+  .박스내용{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e5e5e5;
+    text-align: left;
+    padding: 2%;
+  }
+  #요소{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .요소들{
+    border-style: solid;
+    border-color: #F18D44;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 150%;
+    background-color: #F18D44;
+    color: #FFFFFF;
+    position: relative;
+    left: 50%;
+    bottom: -10%;
+    transform: translateX(-45%);
+  }
+  .요소설명{
+    text-align: center;
+    font-size: 70%;
+    line-height: 20px;
+    padding: 6%;
+  }
